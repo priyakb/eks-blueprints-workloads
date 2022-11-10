@@ -22,7 +22,7 @@ spec:
         imagePullPolicy: Always
         ports:
         - name: http
-          containerPort: 8080
+          containerPort: 8081
           protocol: TCP
         resources:
             requests:
@@ -45,7 +45,7 @@ metadata:
 spec:
   ports:
     - port: 80
-      targetPort: 8080
+      targetPort: 8081
       protocol: TCP
   type: NodePort
   selector:
