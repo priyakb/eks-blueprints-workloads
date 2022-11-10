@@ -37,7 +37,7 @@ spec:
       activeService: skiapp-service
       previewService: skiapp-service-preview
 ---
-apiVersion: v1
+apiVersion: v2
 kind: Service
 metadata:
   name: skiapp-service-preview
